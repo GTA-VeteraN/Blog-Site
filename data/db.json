@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Hello",
+      "body": "What is your name???",
+      "author": "Yoshi",
+      "id": 1
+    },
+    {
+      "title": "Hello",
+      "body": "shdkjaslkdjakd;l",
+      "author": "Mario",
+      "id": 2
+    }
+  ]
+}

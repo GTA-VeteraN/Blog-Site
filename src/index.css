@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+  margin :0;
+  color : #333;
+  font-family: 'Quicksand', sans-serif;
+  text-align : left;
+  
+}
+.navbar{
+  padding : 20px;
+  display : flex;
+  align-items : center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1{
+  color: #f1356d;
+
+}
+.navbar .links{
+  margin-left: auto;
+
+}
+.navbar a{
+  margin-left : 16px;
+  text-decoration: none;
+  padding : 6px;
+}
+.navbar a:hover{
+  color : #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview{
+  text-align: left;
+  margin: 20px 0px;
+  border-bottom: 1px solid #fafafa;
+  /* border : 2px solid #f1356d; */
+  display: flex;
+  align-items: center;
+  
+  /* border-radius: 10px; */
+  
+}
+.blog-preview-data {
+  width: 510px;
+  background-color: white;
+  border : 2px solid #f1356d;
+  height : 56px;
+  padding: 15px;
+  border-radius :0px;
+  text-decoration: none;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.blog-preview:hover .delete-button{
+  background-color: white;
+  color :#f1356d;
+  transition : 300ms ease-in-out;
+}
+.blog-preview:hover .blog-preview-data {
+  background-color :#f1356d;
+  transition : 300ms ease-in-out;
+}
+.blog-preview-data p{
+  color: black;
+}
+.blog-preview:hover .blog-preview-data h2{
+  color :white;
+  transition : 300ms ease-in-out;
+}
+.blog-preview:hover .blog-preview-data p{
+  color :white;
+  transition : 300ms ease-in-out;
+}
+
+.delete-button{
+  width : 90px;
+  color: white;
+  border : 2px solid #f1356d;
+  border-left: none;
+  height : 90px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color : #f1356d;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius :0px;
+  text-align: center;
+  /* box-shadow: 3px 3px 5px #333; */
+}
+.blog-preview p{
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.blog-preview h2{
+  font-size : 25px;
+  color: #f1356d;
+  margin-bottom: 8px;
+  font-variant: small-caps ;
+  font-weight: bolder;
+
+}
+
+.delete-button:hover{
+  background-color: white;
+  cursor: pointer;
+  color : #f1356d;
+  transition : 300ms ease-in-out;
+}
+
+.blog-details-body{
+  border: 2px solid black;
+  padding: 10px;
+  padding-bottom: 100px;
+  max-width :600px;
+  /* overflow-x : auto; */
+  word-wrap: 
+  
+}
+.heading{
+  font-size: 25px;
+  font-weight: bolder;
+  color : #f1356d;
+  margin-bottom: 10px;
+  font-variant: small-caps;
+  padding: 7px 40px 7px 40px;
+  width : max-content;
+  padding-left: none;
+  
+  /* border-radius: 2px; */
+  border: 2px solid #f1356d;
+  /* background-color: #f1356d; */
+}
+.heading:hover{
+  background-color: #f1356d;
+  color: white;
+  cursor: auto;
+  border: 2px solid white;
+  box-shadow : 3px 3px black;
+  
+}
+
+.blog-author{
+  width : max-content;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+  /* border: 1px solid black; */
+}
+.blog-body{
+  max-width : 600px;
+  padding: 10px;
+}
+
+.blog-details button{
+  background-color: #f1356d;
+  color : white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create{
+  max-width: 400px;
+  margin : 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 20px;
+  color :#f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea , .create select{
+  width : 100%;
+  padding: 6px 10px;
+  margin: 10px 0px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background-color: #f1356d;
+  color : white;
+  border: none;
+  padding: 8px;
+  cursor : pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.create .reset{
+  margin-left: 20px;
+}
+.create .buttons{
+  display: flex;
+  align-items: flex-end;
+}
